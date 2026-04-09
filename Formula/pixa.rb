@@ -1,25 +1,25 @@
 class Pixa < Formula
   desc "Fast image processing CLI: compress, resize, convert, split sheets, generate favicons"
   homepage "https://github.com/techarm/pixa"
-  version "0.1.3"
+  version "0.1.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/techarm/pixa/releases/download/v0.1.3/pixa-aarch64-apple-darwin.tar.xz"
-      sha256 "508012f27d97f9f112a00f506af19088c19e435c2e3dcab8ab0ee5b0b961a8a2"
+      url "https://github.com/techarm/pixa/releases/download/v0.1.4/pixa-aarch64-apple-darwin.tar.xz"
+      sha256 "85ee0cfb4afade68167335777b70aea09df170917db67d4172a7e240d7801b8a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/techarm/pixa/releases/download/v0.1.3/pixa-x86_64-apple-darwin.tar.xz"
-      sha256 "0f47433fe997c75b89fe1fbfc0f36e286108f67cd47d1a5c089edf043ea65281"
+      url "https://github.com/techarm/pixa/releases/download/v0.1.4/pixa-x86_64-apple-darwin.tar.xz"
+      sha256 "7cdb6f94ce154677aba09edaec18e1a250555b25b5f94ea29baadce817c721ea"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/techarm/pixa/releases/download/v0.1.3/pixa-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "8c4954b487717e7d127b3a4ba701c268f9d3ec17ecf22bd06133240d416274bd"
+      url "https://github.com/techarm/pixa/releases/download/v0.1.4/pixa-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "04abd17268ab68611f145760210e0aefc205cfac57395244a1baba90d68ca732"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/techarm/pixa/releases/download/v0.1.3/pixa-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "a5bd6a116eca56974d13081f02f34dd38871fd60816cdea516952ff0598d7964"
+      url "https://github.com/techarm/pixa/releases/download/v0.1.4/pixa-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "f6343cf10d2d540476d84ef4dbb9776a9f63ab4db42dbf9b41bac46bc76b1cb3"
     end
   end
   license "MIT"
